@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --backgorund_color: rgb(212, 206, 189)
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--backgorund_color);
+}

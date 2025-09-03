@@ -1,0 +1,96 @@
+.search_box {
+    background-color: #f5f5f5;
+    width: 300px;
+    height: 40px;
+
+    padding: 10px;
+    margin: 30px;
+
+    justify-self: flex-end;
+    position: relative;
+    border-radius: 20px;
+}
+
+.search_input {
+    background-color: transparent;
+    width: 240px;
+    border: none;
+}
+
+.search_input:focus {
+    outline: none;
+}
+
+.search_button {
+    cursor: pointer;
+    border: none;
+}
+
+.search_image {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    top: 9px;
+}
+
+.lista_livros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 100px;
+}
+
+.livro {
+    background-color: rgb(99, 90, 77);
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+
+    transition: transform 0.3s ease, background-color 0.5s ease;
+}
+
+.livro:hover {
+    background-color: rgb(58, 52, 45);
+    transform: scale(1.01);
+}
+
+.livro_imagem {
+    width: 200px;
+    max-height: 100%;
+}
+
+.secao_livro_imagem {
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.livro_titulo {
+    width: 200px;
+    height: 20%;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: #f5f5f5;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("../../global/images/biblioteca.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+
+.body2 {
+    margin-top: 79px;
+    background-color: var(--backgorund_color);
+    height: auto;
+    width: 80%;
+}
